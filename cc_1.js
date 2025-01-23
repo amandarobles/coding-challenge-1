@@ -38,4 +38,4 @@ if (isLoggedIn) {
     console.log("Access denied.");
 }
 let hasAdminAccess = isLoggedIn && true;
-console.log("Has admin access:", has AdminAccess);
+console.log("Has admin access:", hasAdminAccess);
