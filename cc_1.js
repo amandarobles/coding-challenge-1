@@ -24,3 +24,8 @@ accountBalance *= 1.05;
 console.log("After interest:", accountBalance);
 accountBalance /= 2;
 console.log("After split:", accountBalance);
+
+// task 4 - String Data Type
+let customerName = new String("Alice");
+let welcomeMessage = "Hello, " + customerName + "! Welcome to our platform."
+console.log(welcomeMessage);
