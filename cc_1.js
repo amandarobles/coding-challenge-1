@@ -13,3 +13,14 @@ var isAvailable = true;
 console.log("Product Name:", productName, "Type:", typeof productName);
 console.log("Product Price:", productPrice, "Type:", typeof productPrice);
 console.log("Is Available:", isAvailable, "Type:", typeof isAvailable);
+
+// task 3 - Number Data Type
+let accountBalance = 1000;
+accountBalance += 500;
+console.log("After deposit:", accountBalance);
+accountBalance -= 200;
+console.long("After withdrawal:", accountBalance);
+accountBalance *= 1.05;
+console.log("After interest:", accountBalance);
+accountBalance /= 2;
+console.log("After split:", accountBalance);
