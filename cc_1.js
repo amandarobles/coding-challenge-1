@@ -1,5 +1,5 @@
 // task 1 - Variable
-let employeeName = new String("JohnDoe");
+let employeeName = "JohnDoe";
 const employeeID = "00001";
 var isActive = true;
 console.log("Employee Name:", employeeName, "Type:", typeof employeeName);
@@ -19,7 +19,7 @@ let accountBalance = 1000;
 accountBalance += 500;
 console.log("After deposit:", accountBalance);
 accountBalance -= 200;
-console.long("After withdrawal:", accountBalance);
+console.log("After withdrawal:", accountBalance);
 accountBalance *= 1.05;
 console.log("After interest:", accountBalance);
 accountBalance /= 2;
