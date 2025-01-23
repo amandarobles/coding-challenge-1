@@ -29,3 +29,13 @@ console.log("After split:", accountBalance);
 let customerName = new String("Alice");
 let welcomeMessage = "Hello, " + customerName + "! Welcome to our platform."
 console.log(welcomeMessage);
+
+// task 5- Boolean Data Type
+let isLoggedIn = true;
+if (isLoggedIn) {
+    console.log("Access granted.");
+} else {
+    console.log("Access denied.");
+}
+let hasAdminAccess = isLoggedIn && true;
+console.log("Has admin access:", has AdminAccess);
